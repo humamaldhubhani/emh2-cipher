@@ -2,7 +2,7 @@
 def process_string(input_string):
 	input_string = input_string.replace(" ", "")  # Remove spaces
 	if len(input_string) % 2 != 0:
-		input_string += 'x'  # Make even if odd length
+		input_string += 'X'  # Make even if odd length
 	result = [input_string[i + 1] + input_string[i] for i in range(0, len(input_string) - 1, 2)]
 	return ''.join(result)  # Return as a single string
 
