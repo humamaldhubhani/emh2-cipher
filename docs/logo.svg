@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#10131C"/>
+  <!-- stacked layers = stages -->
+  <rect x="116" y="300" width="280" height="54" rx="14" fill="#2B2F77"/>
+  <rect x="116" y="236" width="280" height="54" rx="14" fill="#4B3FBF"/>
+  <rect x="116" y="172" width="280" height="54" rx="14" fill="#7B61FF"/>
+  <!-- padlock -->
+  <path d="M220 172 V136 A36 36 0 0 1 292 136 V172" stroke="#00E5A0" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <text x="256" y="420" font-family="Consolas, Menlo, monospace" font-size="54" font-weight="700" fill="#00E5A0" text-anchor="middle">(EMH)²</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <text x="256" y="209">VIGENÈRE</text>
+    <text x="256" y="273">CAESAR ×2</text>
+    <text x="256" y="337">TRANSPOSE</text>
+  </g>
+</svg>
